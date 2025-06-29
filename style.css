@@ -2,8 +2,9 @@ body{
     background-color: black;
     color: white;
 }
-h1,h2,h3,h4,h5,h6,ul,li,p {font-family: 'Courier New', monospace;}
+h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;}
 
 :visited 
-{ color: white;}
+{ color: rgb(255, 255, 255);}
 
+a {text-decoration: none;}
