@@ -8,5 +8,9 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;}
 { color: rgb(255, 255, 255);}
 
 a {text-decoration: none;}
+
 a {font-style: oblique;}
+
 a {font-weight: 400;}
+
+ul {list-style: circle;}
