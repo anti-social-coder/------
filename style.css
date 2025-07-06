@@ -26,3 +26,23 @@ p {line-height: 1.5;
     height: 50px; 
     font-weight: 200px;
 }
+
+.proceed-btn{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0.25rem 0.25rem;
+    background-color: #000000;
+    color: #ffffff;
+    border:none ;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.125 ;
+    transition: 2s;
+}
+
+.proceed-btn:hover {
+    background-color: #000000;
+    opacity: 1;
+}
