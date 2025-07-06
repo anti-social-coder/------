@@ -49,3 +49,17 @@ p {line-height: 1.5;
     background-color: #000000;
     opacity: 1;
 }
+
+.proceed-btn-secondary{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0.25rem 0.25rem;
+    background-color: #000000;
+    color: #ffffff;
+    border:solid #ffffff 1px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: 2s;
+    margin-left:17px;
+}
