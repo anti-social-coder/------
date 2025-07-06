@@ -14,6 +14,8 @@ a {text-decoration: none;
     font-style: oblique;
     font-weight: 400;
     font-size: 15px;
+    display: inline;
+
 }
 
 ul {list-style: circle;}
