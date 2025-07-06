@@ -3,7 +3,7 @@ body{
     color:#E0E0E0;
 }
 h1,h2,h3,h4,h5,h6,ul,li,p,a {font-family: 'Courier New', monospace;
-text-align: left;
+text-align: left; letter-spacing: 0.5px;
 
 }
 
@@ -20,7 +20,9 @@ a { font-size: 15px;}
 
 ul {list-style: circle;}
 
-p {line-height: 1.25;}
+p {line-height: 1.25;
+    font-size: 15px;
+}
 
 #header {text-align: center;
     height: 50px; 
