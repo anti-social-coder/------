@@ -53,6 +53,7 @@ p {line-height: 1.5;
 .proceed-btn-secondary{ 
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
+    width: 5%;
     font-size: 15px;
     padding: 0.25rem 0.25rem;
     background-color: #000000;
@@ -60,6 +61,15 @@ p {line-height: 1.5;
     border:solid #ffffff 1px;
     cursor: pointer;
     letter-spacing: 0.5px;
-    transition: 2s;
+    opacity: 0.125 ;
+    transition: 1.5s;
     margin-left:17px;
+}
+
+.proceed-btn-secondary:hover {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: #ffffff 0 0 20px;
+    transition: 1.5s;
+    opacity: 0.9;
 }
