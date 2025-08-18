@@ -2,24 +2,26 @@ body {
     background-color: #0a0a0a;
     color: #e0e0e0;
     font-family: 'Courier New', monospace;
-    padding: 2rem;
-  }
+    margin: 0;  
+    padding: 0;  
+}
 
-  h1 {
+h1 {
     text-align: center;
     color: #ffffff;
     font-size: 2rem;
     margin-bottom: 2rem;
-  }
+}
 
-  #access { text-align: center;
+#access { 
+    text-align: center;
     color: #ffffff;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
-  }
+}
 
-  .btn { 
+.btn { 
     font-family:'Courier New', monospace;
     font-size: 16px;
     width: 50%;
@@ -33,25 +35,56 @@ body {
     opacity: 0.25 ;
     transition: 1.5s;
     box-shadow: #ffffff 0 0 20px;
-  }
+}
 
-  .btn:hover {
+.btn:hover {
     background-color: #000000;
     color: #ffffff;
     opacity: 1;
     box-shadow: #ffffff 0 0 20px;
-  }
+}
 
-  .container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-  }
-  .footer {
+}
+
+.footer {
     margin-top: 3rem;
     text-align: center;
     font-size: 0.9rem;
     opacity: 0.5;
-  }
+}
+
+.dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: solid #ffffff 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0;  
+}
+
+#logo {
+    height: 50px;  
+    width: auto;  
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
