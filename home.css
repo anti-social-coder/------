@@ -87,17 +87,20 @@ h1 {
     letter-spacing: 1px;
     background-color: #000000;
     color: #ffffff;
-    border: solid #ffffff 1px;
+   border: solid#ffffff 1px;
     border-radius: 4px;
 }
    
 #indexbtn { 
     font-size: 1rem;
-cursor: pointer;
+    cursor: pointer;
     letter-spacing: 1px;
     background-color: #000000;
     color: #ffffff;
-    border: solid #ffffff 0;
+    border: solid #ffffff 1px;
     border-radius: 4px;
 }
-   
+
+#background {
+    color: #ffffff;
+}
