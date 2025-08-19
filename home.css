@@ -93,7 +93,7 @@ h1 {
    
 #indexbtn { 
     font-size: 1rem;
-
+cursor: pointer;
     letter-spacing: 1px;
     background-color: #000000;
     color: #ffffff;
